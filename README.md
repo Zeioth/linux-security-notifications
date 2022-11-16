@@ -12,7 +12,7 @@ If someone tries to log into your system (locally, or remotely), and fail to int
 # FEATURE 3 - Notifications about incorrect sudo configurations (NOT IMPLEMENTED YET)
 In case an user might potentially have a dangerous sudo/user/group configurations, we will warn him.
 
-# FEATURE 4 - Notifications about keyloggers
+# FEATURE 4 - Notifications about keyloggers (NOT IMPLEMENTED YET)
 If someone is recording out keystrokes, send a desktop notifications.
 
 Again, this feature provide alerts, which is convenient, but if you are really concerned about your acess security, it's a good idea to encrypt your hard disks to EXT4 + LUKS is a good idea on the local side, and audit your ssh settings, and firewall, for the net.
