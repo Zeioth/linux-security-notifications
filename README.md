@@ -2,7 +2,7 @@
 Systemd service that displays important security information as friendly desktop notifications.
 
 # FEATURE 1 - Notifications about potentially dangerous file permissions.
-Think about Android. It tells you the permissions used by the programs you are about to install. So convenient right? How come that we don't have anything like that on the Linux desktop yet? Well, it's a bit more complicated. In practice, only the revierews of your distro repositories could provide you that information. And they won't because it's a titanic work they are not paid for.
+Think about Android. It tells you the permissions used by the programs you are about to install. So convenient right? How come we don't have anything like that on the Linux desktop yet? Well, it's a bit more complicated. In practice, only the revierews of your distro repositories could provide you that information. And they won't because it's a titanic work they are not paid for.
 
 Then what can we do? Plently! The approach of this project is to periodically compare the permissions of all the files of your system with the permissions they had 10 minutes ago. If any program you recently installed, installed files with a privilege level upper than 644, you will get a desktop notification about those files, so you can manually review them and see what's going on.
 
